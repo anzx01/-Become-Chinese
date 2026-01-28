@@ -1,4 +1,4 @@
-export type ModuleCategory = 'food' | 'living' | 'transport' | 'culture';
+export type ModuleCategory = 'food' | 'living' | 'transport' | 'culture' | 'healthcare';
 
 export interface Module {
   id: string;
@@ -13,13 +13,14 @@ export interface Module {
 export interface UserProgress {
   currentModule: string;
   completedModules: string[];
-  selectedMotivation?: string;
+  selectedMotivation?: string | string[];
   selectedCity?: string;
   skillLevels: {
     food: number;
     living: number;
     transport: number;
     culture: number;
+    healthcare: number;
   };
   lastVisited: string;
 }

@@ -60,7 +60,24 @@ export const MODULE_CONTENT: Record<string, ModuleContent> = {
       title: '📌 Reality Check',
       content: 'Your landlord probably won\'t speak English. Bring a Chinese-speaking friend when signing contracts. Always.'
     },
-    cta: "Next: Transport"
+    cta: "Next: Healthcare"
+  },
+  healthcare: {
+    title: "Healthcare: Navigating Chinese Medical System",
+    intro: "Getting sick in China doesn't have to be scary. The healthcare system is efficient, affordable, and surprisingly modern—once you know how it works.",
+    lessons: [
+      "How to find and register at a hospital (public vs. private options)",
+      "Understanding the registration system (guahao 挂号) and department selection",
+      "What to expect during consultations (quick, direct, sometimes blunt)",
+      "Pharmacy access (many medications available without prescription)",
+      "Insurance options for foreigners (local vs. international coverage)"
+    ],
+    callout: {
+      type: 'tip',
+      title: '💡 Pro Tip: Hospital Apps',
+      content: 'Download your hospital\'s app before you get sick. You can register, pay, and check results all from your phone—no waiting in lines.'
+    },
+    cta: "Next: Transportation Mastery"
   },
   transport: {
     title: "Transport: Getting Around Without Getting Lost",

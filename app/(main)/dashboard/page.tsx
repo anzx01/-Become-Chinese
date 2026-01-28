@@ -15,7 +15,7 @@ export default function DashboardPage() {
 
   if (!progress) return null;
 
-  const contentModules = MODULES.filter(m => !['onboarding', 'city', 'dashboard', 'status'].includes(m.id));
+  const contentModules = MODULES.filter(m => !['onboarding', 'city', 'dashboard', 'status', 'becoming-chinese'].includes(m.id));
 
   const getModuleStatus = (moduleId: string) => {
     if (progress.completedModules.includes(moduleId)) {
@@ -43,26 +43,38 @@ export default function DashboardPage() {
       {/* Skill Levels */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold text-gray-900 mb-6">Skill Levels</h2>
-        <div className="grid md:grid-cols-4 gap-5">
+        <div className="grid md:grid-cols-5 gap-5">
           {Object.entries(progress.skillLevels).map(([category, level]) => (
             <div key={category} className={`rounded-2xl p-6 flex flex-col gap-4 ${
               category === 'food' ? 'bg-amber-100' :
               category === 'living' ? 'bg-blue-100' :
               category === 'transport' ? 'bg-purple-100' :
+              category === 'healthcare' ? 'bg-red-100' :
               'bg-green-100'
             }`}>
-              <h3 className={`text-xl font-bold capitalize ${
-                category === 'food' ? 'text-amber-900' :
-                category === 'living' ? 'text-blue-900' :
-                category === 'transport' ? 'text-purple-900' :
-                'text-green-900'
-              }`}>
-                {category}
-              </h3>
+              <div className="flex items-center gap-2">
+                <span className="text-2xl">
+                  {category === 'food' ? '🥢' :
+                   category === 'living' ? '🏠' :
+                   category === 'transport' ? '🚇' :
+                   category === 'healthcare' ? '🏥' :
+                   '🧠'}
+                </span>
+                <h3 className={`text-xl font-bold capitalize ${
+                  category === 'food' ? 'text-amber-900' :
+                  category === 'living' ? 'text-blue-900' :
+                  category === 'transport' ? 'text-purple-900' :
+                  category === 'healthcare' ? 'text-red-900' :
+                  'text-green-900'
+                }`}>
+                  {category}
+                </h3>
+              </div>
               <p className={`text-4xl font-extrabold ${
                 category === 'food' ? 'text-amber-900' :
                 category === 'living' ? 'text-blue-900' :
                 category === 'transport' ? 'text-purple-900' :
+                category === 'healthcare' ? 'text-red-900' :
                 'text-green-900'
               }`}>
                 Level {Math.floor(level / 20)}
@@ -71,6 +83,7 @@ export default function DashboardPage() {
                 category === 'food' ? 'bg-amber-200' :
                 category === 'living' ? 'bg-blue-200' :
                 category === 'transport' ? 'bg-purple-200' :
+                category === 'healthcare' ? 'bg-red-200' :
                 'bg-green-200'
               }`}>
                 <div
@@ -78,6 +91,7 @@ export default function DashboardPage() {
                     category === 'food' ? 'bg-amber-600' :
                     category === 'living' ? 'bg-blue-600' :
                     category === 'transport' ? 'bg-purple-600' :
+                    category === 'healthcare' ? 'bg-red-600' :
                     'bg-green-600'
                   }`}
                   style={{ width: `${level}%` }}

@@ -13,6 +13,7 @@ export class ProgressTracker {
         living: 0,
         transport: 0,
         culture: 0,
+        healthcare: 0,
       },
       lastVisited: new Date().toISOString(),
     };
