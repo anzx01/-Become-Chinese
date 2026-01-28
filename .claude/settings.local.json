@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install:*)",
+      "Bash(pnpm run dev:*)",
+      "Bash(taskkill:*)",
+      "WebFetch(domain:orm.drizzle.team)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm run build:*)",
+      "Bash(git config:*)"
+    ]
+  }
+}
