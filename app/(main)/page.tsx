@@ -49,8 +49,8 @@ export default function LandingPage() {
 
           {/* Social Proof */}
           <p className="animate-fade-in delay-400 opacity-0 text-sm text-gray-500 text-center max-w-2xl">
-            Used by <span className="font-bold text-red-600">10,000+</span> curious future Chinese •
-            Built with real experiences from locals, expats, and immigrants
+            A practical orientation guide for newcomers, travelers, students,
+            and long-term residents preparing for everyday life in China
           </p>
         </div>
 
@@ -94,8 +94,8 @@ export default function LandingPage() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
                 <div className="aspect-[4/3] relative">
                   <Image
-                    src="/images/cherry-blossoms.jpg"
-                    alt="Beautiful cherry blossoms in Chinese mountains"
+                    src="/images/culture-landscape.svg"
+                    alt="Original illustration of spring hills and cultural travel"
                     fill
                     className="object-cover"
                     priority
@@ -116,11 +116,11 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col items-center gap-6 mb-16">
             <h2 className="text-5xl md:text-6xl font-display font-bold text-gray-900 text-center text-balance">
-              What You'll Master
+              What You Will Master
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-red-600 to-amber-500"></div>
             <p className="text-xl text-gray-600 text-center max-w-2xl">
-              From chopsticks to social etiquette, we've got you covered
+              From chopsticks to social etiquette, this guide covers the essentials
             </p>
           </div>
 
@@ -181,8 +181,8 @@ export default function LandingPage() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
                 <div className="aspect-[4/3] relative">
                   <Image
-                    src="/images/shanghai-skyline.jpg"
-                    alt="Modern Shanghai skyline with Oriental Pearl Tower"
+                    src="/images/modern-city.svg"
+                    alt="Original illustration of a modern riverside Chinese city"
                     fill
                     className="object-cover"
                     priority
@@ -204,7 +204,7 @@ export default function LandingPage() {
                 Navigate <span className="text-gradient-red">Urban Life</span> with Confidence
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                China's cities are technological marvels where ancient traditions meet cutting-edge innovation. Master the digital ecosystem, transportation networks, and urban lifestyle that define modern Chinese living.
+                Cities in China are technological marvels where ancient traditions meet cutting-edge innovation. Master the digital ecosystem, transportation networks, and urban lifestyle that define modern Chinese living.
               </p>
               <div className="grid grid-cols-2 gap-6 pt-4">
                 <div className="space-y-2">
@@ -229,33 +229,33 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* Use Cases Section */}
       <section className="relative px-6 py-24 md:px-16 md:py-32 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col items-center gap-6 mb-16">
             <h2 className="text-5xl md:text-6xl font-display font-bold text-gray-900 text-center text-balance">
-              What People Are Saying
+              Ways This Guide Helps
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-red-600 to-amber-500"></div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <TestimonialCard
-              quote="This guide saved me so much time and embarrassment. The food etiquette section alone was worth it!"
-              author="Sarah M."
-              role="Expat in Beijing"
+              quote="Prepare before arrival with a quick map of daily basics: food, housing, transport, payments, and useful apps."
+              author="Move Prep"
+              role="Before you land"
               delay="delay-100"
             />
             <TestimonialCard
-              quote="Finally, someone explains Chinese culture in a way that's practical and honest. No fluff, just real advice."
-              author="James L."
-              role="English Teacher in Shanghai"
+              quote="Use the modules as a checklist for your first month, from phone setup to hospital registration and metro habits."
+              author="First Month"
+              role="Getting settled"
               delay="delay-200"
             />
             <TestimonialCard
-              quote="I wish I had this when I first moved to China. Would have saved me from so many awkward moments!"
-              author="Maria K."
-              role="Business Professional"
+              quote="Build context for work, social life, dating norms, festivals, and the small etiquette details people rarely explain."
+              author="Culture Context"
+              role="Longer stays"
               delay="delay-300"
             />
           </div>
@@ -285,7 +285,7 @@ export default function LandingPage() {
             </Button>
           </Link>
           <p className="text-sm text-gray-400 mt-4">
-            Join 10,000+ people who are mastering Chinese culture
+            Verify current local rules before making legal, medical, financial, or immigration decisions
           </p>
         </div>
       </section>
@@ -340,7 +340,7 @@ function TestimonialCard({
     <div className={`animate-fade-in-up ${delay} opacity-0 bg-white rounded-3xl p-8 border-2 border-gray-100 hover:border-red-200 transition-all duration-300 hover:shadow-xl`}>
       <div className="flex flex-col gap-6">
         {/* Quote Icon */}
-        <div className="text-5xl text-red-600 opacity-20">"</div>
+        <div className="text-5xl text-red-600 opacity-20" aria-hidden="true">&quot;</div>
 
         {/* Quote Text */}
         <p className="text-lg text-gray-700 leading-relaxed -mt-8">

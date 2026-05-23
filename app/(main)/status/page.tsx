@@ -11,7 +11,11 @@ export default function StatusPage() {
   const [progress, setProgress] = useState<UserProgress | null>(null);
 
   useEffect(() => {
-    setProgress(progressTracker.getProgress());
+    const id = window.setTimeout(() => {
+      setProgress(progressTracker.getProgress());
+    }, 0);
+
+    return () => window.clearTimeout(id);
   }, []);
 
   const handleReset = () => {
@@ -48,12 +52,12 @@ export default function StatusPage() {
 
         {/* Title */}
         <h1 className="text-5xl md:text-6xl font-extrabold text-white text-center leading-tight">
-          You May Never Be Chinese.<br />But You'll Understand China.
+          You May Never Be Chinese.<br />But You Will Understand China.
         </h1>
 
         {/* Subtitle */}
         <p className="text-3xl text-gray-400 text-center">
-          And that's already rare.
+          And that is already rare.
         </p>
 
         {/* Stats */}

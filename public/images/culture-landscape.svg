@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Layered spring landscape illustration</title>
+  <desc id="desc">An original vector illustration of misty hills, blossom branches, terraces, and warm morning light.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdf2f8"/>
+      <stop offset="0.5" stop-color="#eef2ff"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="hillA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7f1d1d"/>
+      <stop offset="1" stop-color="#be185d"/>
+    </linearGradient>
+    <linearGradient id="hillB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9f1239"/>
+      <stop offset="1" stop-color="#f9a8d4"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#fb7185" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="910" cy="170" r="180" fill="url(#sun)" opacity="0.8"/>
+  <path d="M0 320c135-92 275-110 420-55 118 45 205 31 335-32 168-82 308-44 445 65v602H0Z" fill="#fbcfe8" opacity="0.55"/>
+  <path d="M0 430c155-105 314-126 478-62 114 45 215 34 337-30 146-77 271-67 385 32v530H0Z" fill="url(#hillB)" opacity="0.78"/>
+  <path d="M0 560c142-86 288-98 438-36 137 57 251 44 384-34 158-93 286-88 378 7v403H0Z" fill="url(#hillA)" opacity="0.92"/>
+  <path d="M0 665c160-56 331-70 520-33 204 39 409 37 680-32v300H0Z" fill="#14532d" opacity="0.88"/>
+  <path d="M120 710c145-58 282-58 414 0M78 770c165-46 345-44 542 4M620 705c182-53 344-53 486 0M610 782c188-42 350-42 520 0" fill="none" stroke="#fde68a" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+  <g opacity="0.42" filter="url(#soft)">
+    <ellipse cx="320" cy="380" rx="220" ry="44" fill="#fff"/>
+    <ellipse cx="810" cy="430" rx="280" ry="52" fill="#fff"/>
+    <ellipse cx="520" cy="535" rx="230" ry="42" fill="#fff"/>
+  </g>
+  <g fill="none" stroke="#4a044e" stroke-linecap="round" stroke-linejoin="round" opacity="0.72">
+    <path d="M184 695c38-110 65-213 78-308" stroke-width="10"/>
+    <path d="M255 416c-50 18-91 47-124 87M267 431c46 3 89 21 128 55M233 511c-36 11-70 32-102 63M248 535c42 3 82 17 120 42" stroke-width="7"/>
+  </g>
+  <g fill="#fdf2f8" opacity="0.9">
+    <circle cx="129" cy="502" r="14"/>
+    <circle cx="176" cy="467" r="11"/>
+    <circle cx="229" cy="442" r="13"/>
+    <circle cx="314" cy="466" r="12"/>
+    <circle cx="365" cy="485" r="14"/>
+    <circle cx="131" cy="574" r="12"/>
+    <circle cx="201" cy="537" r="10"/>
+    <circle cx="298" cy="568" r="11"/>
+  </g>
+  <g fill="#fff7ed" opacity="0.7">
+    <circle cx="640" cy="608" r="8"/>
+    <circle cx="690" cy="589" r="7"/>
+    <circle cx="735" cy="615" r="9"/>
+    <circle cx="790" cy="586" r="7"/>
+    <circle cx="845" cy="614" r="8"/>
+  </g>
+</svg>

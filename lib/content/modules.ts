@@ -236,7 +236,7 @@ export const MODULE_CONTENT: Record<string, ModuleContent> = {
       },
       {
         title: "Set up utilities and internet",
-        content: "Utilities (water, electricity, gas) are usually not included in rent and must be paid separately, either directly to utility companies or through your landlord. Electricity is prepaid in many buildings—you buy credits that get deducted as you use power. Internet requires a separate contract with providers like China Telecom (中国电信), China Unicom (中国联通), or China Mobile (中国移动). Installation takes 3-7 days. Speeds are good (100-1000 Mbps) and prices are reasonable (100-200 RMB/month). VPN is necessary for accessing blocked sites like Google, Facebook, and many Western services. Some buildings have restrictions on which internet providers you can use.",
+        content: "Utilities (water, electricity, gas) are usually not included in rent and must be paid separately, either directly to utility companies or through your landlord. Electricity is prepaid in many buildings—you buy credits that get deducted as you use power. Internet requires a separate contract with providers like China Telecom (中国电信), China Unicom (中国联通), or China Mobile (中国移动). Installation takes 3-7 days. Speeds are good (100-1000 Mbps) and prices are reasonable (100-200 RMB/month). Some international services may be unavailable or unreliable, so research lawful access options before you arrive. Some buildings have restrictions on which internet providers you can use.",
         steps: [
           "Electricity: Ask landlord how to pay—some buildings use prepaid cards, others bill monthly",
           "Water & Gas: Usually billed every 2-3 months—landlord will tell you how to pay",
@@ -244,13 +244,13 @@ export const MODULE_CONTENT: Record<string, ModuleContent> = {
           "Provide: passport, lease contract, landlord's contact info",
           "Choose plan: 100-300 Mbps for 100-150 RMB/month, 500-1000 Mbps for 150-250 RMB/month",
           "Technician installs router within 3-7 days",
-          "Set up VPN immediately—ExpressVPN, Astrill, or others (research current working options)"
+          "Research which communication, map, and translation services are currently accessible and lawful"
         ],
         tips: [
           "Electricity costs vary by province: 0.5-1 RMB per kWh",
           "AC usage in summer can double or triple your electricity bill",
           "Some buildings include water in management fees—check your lease",
-          "VPNs are technically restricted but widely used—be discreet",
+          "Access rules change—follow current local regulations and your organization’s policy",
           "Internet contracts are usually 1-2 years—breaking early incurs penalties",
           "Keep utility receipts—landlords may ask for proof when you move out"
         ]
@@ -375,7 +375,7 @@ export const MODULE_CONTENT: Record<string, ModuleContent> = {
       },
       {
         title: "Pharmacy access and medications",
-        content: "Chinese pharmacies (药店 yàodiàn) are everywhere and many medications are available without prescription. Common antibiotics, pain relievers, and cold medicines can be bought over the counter. Pharmacists are knowledgeable and can recommend treatments. Hospital pharmacies dispense prescribed medications immediately after your consultation. Prices are generally much cheaper than Western countries.",
+        content: "Chinese pharmacies (药店 yàodiàn) are everywhere and many medications are available without prescription. Pain relievers and cold medicines can often be bought over the counter, and pharmacists can recommend basic options. Use antibiotics and prescription medication only with qualified medical guidance and current local rules. Hospital pharmacies dispense prescribed medications immediately after your consultation. Prices are generally much cheaper than Western countries.",
         steps: [
           "Find a pharmacy - look for green cross signs (绿十字)",
           "Describe your symptoms or show the medication name",
@@ -671,7 +671,7 @@ export const MODULE_CONTENT: Record<string, ModuleContent> = {
       },
       {
         title: "Use translation apps effectively",
-        content: "Translation apps are lifesavers, but you need to use them right. Google Translate doesn't work in China without VPN. Use Baidu Translate (百度翻译), Microsoft Translator, or Pleco instead. Camera translation is magic—point your phone at signs, menus, or labels and get instant translations. Voice translation works for simple phrases but struggles with accents and background noise. Text translation is most reliable. Save common phrases offline. Learn to recognize key characters so you can spot them in the wild. Apps are tools, not crutches—use them to learn, not just to survive.",
+        content: "Translation apps are lifesavers, but you need to use them right. Google Translate and some other services may be unavailable or unreliable in China. Use locally accessible tools such as Baidu Translate (百度翻译), Microsoft Translator, or Pleco instead. Camera translation is magic—point your phone at signs, menus, or labels and get instant translations. Voice translation works for simple phrases but struggles with accents and background noise. Text translation is most reliable. Save common phrases offline. Learn to recognize key characters so you can spot them in the wild. Apps are tools, not crutches—use them to learn, not just to survive.",
         steps: [
           "Download: Pleco (best dictionary), Baidu Translate (百度翻译), Microsoft Translator",
           "Enable offline mode for emergency use without internet",

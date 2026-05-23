@@ -58,9 +58,9 @@ export class ProgressTracker {
       progress.completedModules.push(moduleId);
 
       // Update skill levels
-      const module = MODULES.find(m => m.id === moduleId);
-      if (module) {
-        progress.skillLevels[module.category] += 20;
+      const completedModule = MODULES.find(m => m.id === moduleId);
+      if (completedModule) {
+        progress.skillLevels[completedModule.category] += 20;
       }
 
       this.saveProgress(progress);

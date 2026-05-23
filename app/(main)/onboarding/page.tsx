@@ -38,7 +38,7 @@ export default function OnboardingPage() {
             <span className="text-gradient-red">Become Chinese</span>?
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-2xl">
-            There's no right answer. Just be honest.
+            There is no right answer. Just be honest.
             <br />
             <span className="text-base text-gray-500 mt-2 block">(Select all that apply)</span>
           </p>

@@ -32,7 +32,7 @@ export default function BecomingChinesePage() {
 
         {/* Subtitle */}
         <p className="text-2xl text-gray-600 text-center">
-          Check if you've mastered the essentials
+          Check if you have mastered the essentials
         </p>
 
         {/* Checklist */}
@@ -54,7 +54,7 @@ export default function BecomingChinesePage() {
           size="lg"
           className="bg-red-600 hover:bg-red-700 text-white px-12 py-7 text-xl font-bold rounded-xl"
         >
-          🎉 Unlock "Become Chinese" Status
+          Unlock Become Chinese Status
         </Button>
       </div>
     </div>

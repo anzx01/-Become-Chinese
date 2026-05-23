@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Modern riverside city illustration</title>
+  <desc id="desc">An original vector illustration of a riverside skyline, transit lines, and soft morning light.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="0.55" stop-color="#ecfeff"/>
+      <stop offset="1" stop-color="#fefce8"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#155e75"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#991b1b"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="980" cy="170" r="190" fill="url(#glow)" opacity="0.75"/>
+  <path d="M0 622c130-36 232-28 336 9 143 51 258 48 394-2 168-62 308-68 470-18v289H0Z" fill="url(#water)"/>
+  <path d="M0 598h1200v62H0Z" fill="#0f172a" opacity="0.82"/>
+  <g fill="#1e293b">
+    <rect x="82" y="410" width="86" height="188" rx="4"/>
+    <rect x="190" y="350" width="90" height="248" rx="5"/>
+    <rect x="308" y="276" width="96" height="322" rx="5"/>
+    <rect x="430" y="205" width="118" height="393" rx="8"/>
+    <rect x="590" y="320" width="92" height="278" rx="5"/>
+    <rect x="720" y="232" width="88" height="366" rx="6"/>
+    <rect x="846" y="168" width="112" height="430" rx="46"/>
+    <rect x="1004" y="360" width="110" height="238" rx="6"/>
+  </g>
+  <g fill="#f8fafc" opacity="0.7">
+    <path d="M446 246h86v22h-86zM446 300h86v22h-86zM446 354h86v22h-86zM446 408h86v22h-86zM446 462h86v22h-86z"/>
+    <path d="M738 275h52v22h-52zM738 330h52v22h-52zM738 385h52v22h-52zM738 440h52v22h-52zM738 495h52v22h-52z"/>
+    <path d="M866 232h72v18h-72zM866 290h72v18h-72zM866 348h72v18h-72zM866 406h72v18h-72zM866 464h72v18h-72z"/>
+  </g>
+  <g fill="url(#tower)">
+    <rect x="548" y="300" width="30" height="298" rx="15"/>
+    <circle cx="563" cy="280" r="68"/>
+    <circle cx="563" cy="280" r="42" fill="#fef3c7" opacity="0.45"/>
+    <rect x="558" y="116" width="10" height="120" rx="5"/>
+    <circle cx="563" cy="108" r="11"/>
+  </g>
+  <path d="M0 680c180 42 356 42 528 0s354-42 546 3c48 11 90 17 126 20" fill="none" stroke="#bae6fd" stroke-width="18" opacity="0.58"/>
+  <path d="M74 760h1052" stroke="#f8fafc" stroke-width="9" stroke-linecap="round" opacity="0.58"/>
+  <path d="M145 720c70-34 134-35 192-3M804 742c88-37 164-35 228 4" fill="none" stroke="#fef3c7" stroke-width="12" stroke-linecap="round" opacity="0.75"/>
+  <g fill="#fee2e2" opacity="0.86">
+    <circle cx="128" cy="438" r="7"/>
+    <circle cx="228" cy="389" r="7"/>
+    <circle cx="352" cy="319" r="7"/>
+    <circle cx="634" cy="358" r="7"/>
+    <circle cx="1058" cy="398" r="7"/>
+  </g>
+</svg>

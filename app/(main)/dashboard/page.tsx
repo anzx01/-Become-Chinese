@@ -10,7 +10,11 @@ export default function DashboardPage() {
   const [progress, setProgress] = useState<UserProgress | null>(null);
 
   useEffect(() => {
-    setProgress(progressTracker.getProgress());
+    const id = window.setTimeout(() => {
+      setProgress(progressTracker.getProgress());
+    }, 0);
+
+    return () => window.clearTimeout(id);
   }, []);
 
   if (!progress) return null;
