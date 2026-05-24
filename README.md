@@ -67,15 +67,18 @@ pnpm db:push      # Push schema to database
 pnpm db:studio    # Open Drizzle Studio
 ```
 
-## Compliance Notes
+## Compliance & Contributing
 
-- Project source code is licensed under the MIT License. See `LICENSE`.
-- Third-party dependency notices are summarized in `THIRD_PARTY_NOTICES.md`.
-- General content and trademark disclaimers are in `DISCLAIMER.md`.
-- Real secrets belong in local `.env*` files only. Use `.env.example` for
-  placeholders.
-- Static visual assets in this repository are project-created replacements for
-  unverified stock/template images.
+- **License**: MIT. See [`LICENSE`](LICENSE).
+- **Disclaimer**: See [`DISCLAIMER.md`](DISCLAIMER.md) for content disclaimers.
+- **Third-party notices**: See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+- **Security**: See [`SECURITY.md`](SECURITY.md) for vulnerability reporting.
+- **Contributing**: See [`CONTRIBUTING.md`](CONTRIBUTING.md) for contribution guidelines.
+- **Code of Conduct**: See [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
+- **Secrets**: Real credentials belong in local `.env*` files only. Use `.env.example`
+  for placeholders.
+- **Assets**: Static visual assets are project-created replacements for unverified
+  stock/template images.
 
 ## Content Disclaimer
 

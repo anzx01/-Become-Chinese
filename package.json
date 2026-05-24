@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "A cultural onboarding web app for newcomers learning practical life in China.",
   "license": "MIT",
+  "author": "Become Chinese contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anzx01/-Become-Chinese"
+  },
   "private": true,
   "engines": {
     "node": ">=20.9.0"
