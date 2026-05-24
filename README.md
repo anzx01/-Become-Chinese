@@ -3,6 +3,12 @@
 Become Chinese is a cultural onboarding web app for newcomers who want a
 practical introduction to everyday life in China.
 
+![1779609857462](image/README/1779609857462.png)
+
+![1779609889889](image/README/1779609889889.png)
+
+![1779609914707](image/README/1779609914707.png)
+
 The app covers food, housing, healthcare, transport, clothing, language,
 payments, work culture, social life, dating, festivals, and broader cultural
 context. It is intended as educational orientation, not as official advice.
@@ -52,7 +58,7 @@ Run the development server:
 pnpm run dev
 ```
 
-Open <http://localhost:3000>.
+Open [http://localhost:3000](http://localhost:3000).
 
 ## Scripts
 
